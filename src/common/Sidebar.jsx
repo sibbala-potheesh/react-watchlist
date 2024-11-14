@@ -164,7 +164,7 @@ const Sidebar = ({ setIsAuthenticated }) => {
 
       {/* Profile section (on large screens) */}
       <div
-        className={`mt-auto mt-[26rem] p-4 flex items-center space-x-3 text-sm text-zinc-600 sm:block ${
+        className={`mt-auto mt-[26  rem] p-4 flex items-center space-x-3 text-sm text-zinc-600 sm:block ${
           isProfileOpen ? "block" : "hidden"
         }`}
       >
